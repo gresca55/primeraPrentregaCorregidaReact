@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:antiquewhite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  }
+  
+  nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  }
+  
+  .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  justify-content: space-between;
+  }
+  
+  .nav-links li:not(:last-child) {
+  margin-right: 1rem;
+  }
+  
+  .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  .search-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+  }
+  
+  .search-container input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  }
+  
+  .search-container button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  }
